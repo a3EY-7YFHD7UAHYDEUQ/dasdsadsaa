@@ -2335,7 +2335,7 @@ end
         local rainbowspeed = {["Value"] = 4.5}
         local clcickgui = Tabs["Rektsky"]:CreateToggle({
             ["Name"] = "ClickGui",
-            ["Keybind"] = nil,
+            ["Keybind"] = V,
             ["Callback"] = function(v) end
         })
 
